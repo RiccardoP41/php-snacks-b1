@@ -10,8 +10,8 @@ $nome = $_GET["name"];
 $eta = $_GET["age"];
 
 
-var_dump(is_nan($eta));
-var_dump(intval($_GET["age"]));
+// var_dump(is_nan($eta));
+// var_dump(intval($_GET["age"]));
 
 if (strlen($nome) < 4) {
     echo "Accesso negato! Il nome deve avere più di 3 caratteri";
