@@ -1,0 +1,36 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partita {
+    background-color: rgb(76,175,80);
+    width: 40%;
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    border-style: groove;
+}
+.partita:nth-child(even){
+    background-color: rgb(60,120,80);
+}
+
+.squadre {
+padding-left: 30px;
+}
+
+.risultato {
+padding-right: 30px;
+}
+
+ h3 {
+    padding: 10px;
+}
